@@ -1,0 +1,1 @@
+# demo-ocr-react-native

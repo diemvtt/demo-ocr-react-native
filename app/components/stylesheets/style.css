@@ -1,0 +1,200 @@
+container {
+  flex: 10;
+  flex-direction: column;
+}
+
+titleNavigator {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+contentContainer {
+  flex: 9;
+}
+
+textStyle {
+  color: white;
+  font-size: 20px;
+}
+
+ratioBestText {
+  color: white;
+  font-size: 18px;
+}
+
+ratioText {
+  color: #ffc233;
+  font-size: 18px;
+}
+
+topButtons {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+cameraContainer {
+  flex: 10;
+  flex-direction: column;
+}
+
+bottomButtons {
+  flex: 2;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+gap {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+preview {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+captureButtonContainer {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+captureButton {
+  flex: 1;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+captureNumber {
+  justify-content: center;
+  color: black;
+  background-color: transparent;
+}
+
+/*for QRCodeReader */
+camera {
+  height: 568px;
+  align-items: center;
+}
+
+rectangleContainer {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+rectangle {
+  height: 250px;
+  width: 250px;
+  border-width: 2px;
+  border-color: #00FF00;
+  background-color: transparent;
+}
+
+cancelButton {
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  border-radius: 3px;
+  padding: 15px;
+  width: 100px;
+  bottom: 10px;
+}
+
+cancelButtonText {
+  font-size: 17px;
+  font-weight: 500;
+  color: #0097CE;
+}
+
+/* index */
+mainContainer {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+blueButton {
+  width: 200px;
+  border-color: white;
+  background-color: #3399ff;
+  padding:10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+mainText {
+  color: white;
+  text-align: center;
+}
+
+/* QRCode Generator */
+generatorContainer {
+  flex: 1;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+qrInput {
+  height: 40px;
+  border-color: gray;
+  border-width: 1px;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+qrWrapper {
+  width:300;
+  height:300;
+  align-items: center;
+  justify-content: center;
+}
+
+avatarContainer {
+  border-color: #9B9B9B;
+  border-width: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+avatar {
+  width: 294px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+}
+
+cropArea {
+  top: 0;
+  bottom:0;
+  flex: 6;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(0,0,0,0.4);
+  padding-top:50px;
+}
+
+crop {
+  top:50px;
+  width: 294px;
+  height: 220px;
+  border-width: 2px;
+  border-color: #00FF00;
+  background-color: rgba(255,255,255,0.1);
+}
+
+
